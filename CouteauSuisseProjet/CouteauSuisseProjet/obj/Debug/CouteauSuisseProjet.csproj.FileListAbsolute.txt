@@ -1,0 +1,8 @@
+D:\ETML-2eme\I114\Couteau Suisse\CouteauSuisseProjet\CouteauSuisseProjet\bin\Debug\CouteauSuisseProjet.exe.config
+D:\ETML-2eme\I114\Couteau Suisse\CouteauSuisseProjet\CouteauSuisseProjet\bin\Debug\CouteauSuisseProjet.exe
+D:\ETML-2eme\I114\Couteau Suisse\CouteauSuisseProjet\CouteauSuisseProjet\bin\Debug\CouteauSuisseProjet.pdb
+D:\ETML-2eme\I114\Couteau Suisse\CouteauSuisseProjet\CouteauSuisseProjet\obj\Debug\CouteauSuisseProjet.csproj.AssemblyReference.cache
+D:\ETML-2eme\I114\Couteau Suisse\CouteauSuisseProjet\CouteauSuisseProjet\obj\Debug\CouteauSuisseProjet.csproj.CoreCompileInputs.cache
+D:\ETML-2eme\I114\Couteau Suisse\CouteauSuisseProjet\CouteauSuisseProjet\obj\Debug\CouteauSuisseProjet.exe
+D:\ETML-2eme\I114\Couteau Suisse\CouteauSuisseProjet\CouteauSuisseProjet\obj\Debug\CouteauSuisseProjet.pdb
+D:\ETML-2eme\I114\Couteau Suisse\CouteauSuisseProjet\CouteauSuisseProjet\obj\Debug\CouteauSuisseProjet.exe.config
