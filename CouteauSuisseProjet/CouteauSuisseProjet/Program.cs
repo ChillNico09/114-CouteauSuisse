@@ -10,7 +10,21 @@ namespace CouteauSuisseProjet
     {
         static void Main(string[] args)
         {
-            Morse.ConvertLetterToMorse();
+            while (Menu.ContinuePlaying)
+            {
+                Menu.DisplayOptions();
+                Menu.GetUserChoice();
+                Menu.UserChoiceHandler();
+                if (Menu.ContinuePlaying)
+                {
+                    if (!Menu.InvalidInput)
+                    {
+                        Console.WriteLine("Appuyer sur n'importe quel touche pour continuer");
+                        Console.ReadLine();
+                        Console.Clear();
+                    }
+                }
+            }
         }
     }
 }
