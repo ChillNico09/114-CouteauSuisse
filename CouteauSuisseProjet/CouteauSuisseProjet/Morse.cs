@@ -1,4 +1,8 @@
-﻿using System;
+﻿///ETML
+///Author : Nicolas Marques
+///Date   : 011.11.2026
+///Description : Un programe couteau Suisse avec plusieur outil à disposition (convertir en code morse. Convertisseur de base. Steganographie)
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
@@ -19,7 +23,7 @@ namespace CouteauSuisseProjet
         /// </summary>
         public static void ConvertLetterToMorse()
         {
-            Console.Write("Entrez votre texte : ");
+            Console.Write("\n\n\nEntrez votre texte : ");
             string userText = Console.ReadLine();
 
             userText = userText.Normalize(NormalizationForm.FormD);

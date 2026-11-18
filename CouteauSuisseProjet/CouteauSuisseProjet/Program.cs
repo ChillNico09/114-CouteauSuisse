@@ -1,4 +1,8 @@
-﻿using System;
+﻿///ETML
+///Author : Nicolas Marques
+///Date   : 011.11.2026
+///Description : Un programe couteau Suisse avec plusieur outil à disposition (convertir en code morse. Convertisseur de base. Steganographie)
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
