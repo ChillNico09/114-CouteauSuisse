@@ -1,6 +1,6 @@
 ﻿///ETML
 ///Author : Nicolas Marques
-///Date   : 011.11.2026
+///Date   : 11.11.2026
 ///Description : Un programe couteau Suisse avec plusieur outil à disposition (convertir en code morse. Convertisseur de base. Steganographie)
 using System;
 using System.Collections.Generic;
@@ -10,6 +10,9 @@ using System.Threading.Tasks;
 
 namespace CouteauSuisseProjet
 {
+    /// <summary>
+    /// Va permettre l'execution des différentes classes et de leur fonction.
+    /// </summary>
     internal class Program
     {
         static void Main(string[] args)
