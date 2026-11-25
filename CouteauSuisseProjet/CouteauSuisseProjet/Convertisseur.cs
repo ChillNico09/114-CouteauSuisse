@@ -67,21 +67,22 @@ namespace CouteauSuisseProjet
             switch (UserOptionChoice)
             {
                 case 1:
+                    numberToEnter_ = "décimal";
                     GetUserChoice(false);
                     ConvertDecimalToBinary(UserOptionChoice);
-                    numberToEnter_ = "décimal";
                     break;
                 case 2:
-                    ConvertBinaryToDecimal();
-                    numberToEnter_ = "binaire";
+                    numberToEnter_ = "binaire (ignore tout chiffre pas égal à 1 ou 0)";
+                    GetUserChoice(false);
+                    ConvertBinaryToDecimal(UserOptionChoice);
                     break;
                 case 3:
-                    ConvertBinaryToOctal();
                     numberToEnter_ = "binaire";
+                    ConvertBinaryToOctal();
                     break;
                 case 4:
-                    ConvertOctalToBinary();
                     numberToEnter_ = "octale";
+                    ConvertOctalToBinary();
                     break;
                 default:
                     Console.Clear();
@@ -93,12 +94,12 @@ namespace CouteauSuisseProjet
         /// <summary>
         /// Convertir une valeur décimal en binaire
         /// </summary>
-        /// <param name="decimalValue">La valeur entrez par l'utilisateur</param>
-        public static void ConvertDecimalToBinary(double decimalValue)
+        /// <param name="userDecimalValue">La valeur entrez par l'utilisateur</param>
+        public static void ConvertDecimalToBinary(double userDecimalValue)
         {
             string binaryValue = "";
             double lastValue = 0;
-            double currentNumber = decimalValue * 2;
+            double currentNumber = userDecimalValue * 2;
             int reste = 0;
             while(currentNumber > 1)
             {
@@ -114,9 +115,45 @@ namespace CouteauSuisseProjet
         /// <summary>
         /// Convertir une valeur binaire en décimal
         /// </summary>
-        public static void ConvertBinaryToDecimal()
+        public static void ConvertBinaryToDecimal(int userBinaryValue)
         {
-
+            int exposantValue = 0;
+            string binaryValue = new string(userBinaryValue.ToString().Reverse().ToArray());
+            int decimalValue = 0;
+            foreach(char bit in binaryValue)
+            {
+                double twoToPower = Math.Pow(2, exposantValue);
+                int singleDecimalValue = 0;
+                switch (bit)
+                {
+                    case '0':
+                        decimalValue = CalculateBinaryToDecimal(singleDecimalValue, twoToPower, decimalValue, true);
+                        exposantValue++;
+                        break;
+                    case '1':
+                        decimalValue = CalculateBinaryToDecimal(singleDecimalValue, twoToPower, decimalValue, false);
+                        exposantValue++;
+                        break;
+                    default:
+                        break;
+                }
+            }
+            Console.WriteLine(decimalValue);
+        }
+        /// <summary>
+        /// Va calculez et additioner
+        /// </summary>
+        /// <param name="singleDecimalValue">La valeur du bit binaire en décimal (parti de la valeur totale)</param>
+        /// <param name="twoToPower">2 à la puissance d'exposant</param>
+        /// <param name="decimalValue">La valeur décimal a rajouté au total de la conversion</param>
+        /// <param name="isZero">Si le bit est égal à 0 ou non</param>
+        /// <returns>Une partie de la valeur décimal final</returns>
+        private static int CalculateBinaryToDecimal(int singleDecimalValue, double twoToPower, int decimalValue, bool isZero)
+        {
+            int bitValue = isZero ? 0 : 1;
+            singleDecimalValue = bitValue * (int)twoToPower;
+            decimalValue += singleDecimalValue;
+            return decimalValue;
         }
 
         /// <summary>

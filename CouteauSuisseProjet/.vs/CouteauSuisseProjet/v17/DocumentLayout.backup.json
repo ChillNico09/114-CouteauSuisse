@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\couteausuisseprojet\\convertisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|d:\\etml-2eme\\i114\\114-couteausuisse\\couteausuisseprojet\\couteausuisseprojet\\convertisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|solutionrelative:couteausuisseprojet\\convertisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|solutionrelative:couteausuisseprojet\\morse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|d:\\etml-2eme\\i114\\114-couteausuisse\\couteausuisseprojet\\couteausuisseprojet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\couteausuisseprojet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|solutionrelative:couteausuisseprojet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,8 +42,7 @@
               "RelativeToolTip": "CouteauSuisseProjet\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAADwvxIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T12:22:08.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-11T12:22:08.141Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "CouteauSuisseProjet\\Morse.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAQwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T12:47:13.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-11T12:47:13.416Z"
             },
             {
               "$type": "Document",
@@ -66,7 +64,7 @@
               "RelativeDocumentMoniker": "CouteauSuisseProjet\\Convertisseur.cs",
               "ToolTip": "D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\CouteauSuisseProjet\\Convertisseur.cs",
               "RelativeToolTip": "CouteauSuisseProjet\\Convertisseur.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAAAF8AAABJAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswIwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-18T13:55:44.384Z",
               "EditorCaption": ""
@@ -81,8 +79,7 @@
               "RelativeToolTip": "CouteauSuisseProjet\\Menu.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAIwDkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-18T12:55:47.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-18T12:55:47.25Z"
             },
             {
               "$type": "Document",
@@ -92,10 +89,9 @@
               "RelativeDocumentMoniker": "CouteauSuisseProjet\\Helper.cs",
               "ToolTip": "D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\CouteauSuisseProjet\\Helper.cs",
               "RelativeToolTip": "CouteauSuisseProjet\\Helper.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-18T14:10:15.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-18T14:10:15.592Z"
             }
           ]
         }
