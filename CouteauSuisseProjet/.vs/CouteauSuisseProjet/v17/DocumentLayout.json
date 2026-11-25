@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\couteausuisseprojet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|solutionrelative:couteausuisseprojet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\couteausuisseprojet\\convertisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|solutionrelative:couteausuisseprojet\\convertisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\couteausuisseprojet\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|solutionrelative:couteausuisseprojet\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\couteausuisseprojet\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|solutionrelative:couteausuisseprojet\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\couteausuisseprojet\\morse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|solutionrelative:couteausuisseprojet\\morse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\couteausuisseprojet\\convertisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|solutionrelative:couteausuisseprojet\\convertisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|d:\\etml-2eme\\i114\\114-couteausuisse\\couteausuisseprojet\\couteausuisseprojet\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|solutionrelative:couteausuisseprojet\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\couteausuisseprojet\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|solutionrelative:couteausuisseprojet\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|d:\\etml-2eme\\i114\\114-couteausuisse\\couteausuisseprojet\\couteausuisseprojet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C784E4-5D10-49EF-8AD2-18D7BD1F43D0}|CouteauSuisseProjet\\CouteauSuisseProjet.csproj|solutionrelative:couteausuisseprojet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\CouteauSuisseProjet\\Program.cs",
               "RelativeDocumentMoniker": "CouteauSuisseProjet\\Program.cs",
               "ToolTip": "D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\CouteauSuisseProjet\\Program.cs",
               "RelativeToolTip": "CouteauSuisseProjet\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvxIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-11T12:22:08.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Morse.cs",
               "DocumentMoniker": "D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\CouteauSuisseProjet\\Morse.cs",
               "RelativeDocumentMoniker": "CouteauSuisseProjet\\Morse.cs",
               "ToolTip": "D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\CouteauSuisseProjet\\Morse.cs",
               "RelativeToolTip": "CouteauSuisseProjet\\Morse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-11T12:47:13.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Convertisseur.cs",
               "DocumentMoniker": "D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\CouteauSuisseProjet\\Convertisseur.cs",
               "RelativeDocumentMoniker": "CouteauSuisseProjet\\Convertisseur.cs",
               "ToolTip": "D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\CouteauSuisseProjet\\Convertisseur.cs",
               "RelativeToolTip": "CouteauSuisseProjet\\Convertisseur.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwGoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-18T13:55:44.384Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Menu.cs",
               "DocumentMoniker": "D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\CouteauSuisseProjet\\Menu.cs",
               "RelativeDocumentMoniker": "CouteauSuisseProjet\\Menu.cs",
               "ToolTip": "D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\CouteauSuisseProjet\\Menu.cs",
               "RelativeToolTip": "CouteauSuisseProjet\\Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwDkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-18T12:55:47.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Helper.cs",
               "DocumentMoniker": "D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\CouteauSuisseProjet\\Helper.cs",
               "RelativeDocumentMoniker": "CouteauSuisseProjet\\Helper.cs",
               "ToolTip": "D:\\ETML-2eme\\I114\\114-CouteauSuisse\\CouteauSuisseProjet\\CouteauSuisseProjet\\Helper.cs",
               "RelativeToolTip": "CouteauSuisseProjet\\Helper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-18T14:10:15.592Z",
               "EditorCaption": ""

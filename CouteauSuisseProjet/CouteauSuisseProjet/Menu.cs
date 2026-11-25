@@ -54,6 +54,10 @@ namespace CouteauSuisseProjet
                     break;
                 case 2:
                     Convertisseur.DisplayOptions();
+                    Convertisseur.GetUserChoice(true);
+                    //Convertisseur.GetUserChoice(false);
+                    Convertisseur.UserChoiceHandler();
+                    
                     break;
                 case 3:
                     Console.Clear();

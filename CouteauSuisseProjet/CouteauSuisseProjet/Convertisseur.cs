@@ -21,6 +21,7 @@ namespace CouteauSuisseProjet
     {
         public static int UserOptionChoice { get; private set; }
         public static bool InvalidInput { get; private set; } = false;
+        private static string numberToEnter_;
         private static int cursorTop_;
         private static int cursorLeft_;
 
@@ -40,11 +41,74 @@ namespace CouteauSuisseProjet
         }
 
         /// <summary>
+        /// Gère si l'utilisateur choisi une méthode de conversion ou s'il doit entrer un nombre
+        /// </summary>
+        /// <param name="isChoosingBase">Si l'utilisateur choisit une méthode de conversion</param>
+        public static void GetUserChoice(bool isChoosingBase)
+        {
+            if (isChoosingBase)
+            {
+                UserOptionChoice = Helper.GetUserChoice(1, 4, cursorLeft_, cursorTop_);
+            }
+            else
+            {
+                Console.Write($"Entrer un nombre en {numberToEnter_} : ");
+                cursorLeft_ = Console.CursorLeft;
+                cursorTop_ = Console.CursorTop;
+                UserOptionChoice = Helper.GetUserChoice(int.MinValue, int.MaxValue, cursorLeft_, cursorTop_);
+            }
+        }
+
+        /// <summary>
+        /// Va gérer le choix de l'utilisateur
+        /// </summary>
+        public static void UserChoiceHandler()
+        {
+            switch (UserOptionChoice)
+            {
+                case 1:
+                    GetUserChoice(false);
+                    ConvertDecimalToBinary(UserOptionChoice);
+                    numberToEnter_ = "décimal";
+                    break;
+                case 2:
+                    ConvertBinaryToDecimal();
+                    numberToEnter_ = "binaire";
+                    break;
+                case 3:
+                    ConvertBinaryToOctal();
+                    numberToEnter_ = "binaire";
+                    break;
+                case 4:
+                    ConvertOctalToBinary();
+                    numberToEnter_ = "octale";
+                    break;
+                default:
+                    Console.Clear();
+                    InvalidInput = true;
+                    break;
+            }
+        }
+
+        /// <summary>
         /// Convertir une valeur décimal en binaire
         /// </summary>
-        public static void ConvertDecimalToBinary()
+        /// <param name="decimalValue">La valeur entrez par l'utilisateur</param>
+        public static void ConvertDecimalToBinary(double decimalValue)
         {
-
+            string binaryValue = "";
+            double lastValue = 0;
+            double currentNumber = decimalValue * 2;
+            int reste = 0;
+            while(currentNumber > 1)
+            {
+                lastValue = currentNumber;
+                currentNumber = Math.Floor(lastValue / 2);
+                reste = (int)currentNumber % 2;
+                binaryValue += reste;
+            }
+            string reversedBinaryValue = new string(binaryValue.Reverse().ToArray()); 
+            Console.WriteLine(reversedBinaryValue);
         }
 
         /// <summary>
@@ -70,5 +134,6 @@ namespace CouteauSuisseProjet
         {
 
         }
+
     }
 }
